@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "breed": "Siamese",
+        "habitat": "A siamese cat's home is people's homes in cat beds.",
+        "image" : "images/Siamese.jpg",
+        "life-span": "between 10 and 12.5 years"
+    },
+    {
+        "id":2,
+        "breed":"Persians",
+        "habitat": "Persians are homebodies",
+        "image": "images/persian-kitten.jpg",
+        "life-span":"between 12 and 18years"
+    },
+    {
+        "id":3,
+        "breed":"sphynx",
+        "habitat":"also known as the Canadian Sphynx, is a breed of cat known for its lack of fur",
+        "image":"images/Sphynx_Cat-AP-BAKLFT-590lc061113.jpg",
+        "life-span":"between 8 and 14years"
+    },
+    {
+        "id":4,
+        "breed":"bengal",
+        "habitat":"tropical forests, coniferous forests,",
+        "image":"images/bengal-2042592_1920.webp",
+        "life-span":"between 12 and 16years"
+    }
+]
