@@ -21,3 +21,5 @@ https://al-hajjar.github.io/phase1project/
 ## Technologies Used
 1. [HTML](https://)
 2. [CSS](https://)
+3. [Javascript](https://)
+
