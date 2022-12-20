@@ -55,6 +55,9 @@ nav {
 .Right-home img {
     transform: scale(1.5);
 }
+/* .contact-page{
+    display: none;
+} */
 
 form{
     max-width: 550px;
@@ -127,12 +130,12 @@ img {
     padding: 10px;
 }
 
-.cats-section-page{
+/* .cats-section-page{
     overflow: hidden;
     min-height: 100vh;
 
 
-}
+} */
 
 .Cat-title {
     text-align: center;
@@ -181,4 +184,7 @@ img {
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+.container h3{
+    text-align: center;
 }

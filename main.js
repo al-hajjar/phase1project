@@ -1,17 +1,34 @@
 const CATEGORIES = 'https://al-hajjar.github.io/phase1project/db.json'
 document.addEventListener('DOMContentLoaded', () => {
+
     // ROWS DATA
-    const mealCategoryRow = document.getElementById('meal-categories')
-    const hide = document.querySelector(".Landing-page")
+    const catCategoryRow = document.getElementById('meal-categories')
+    const hide = document.querySelector(".Home-Page")
+    const contact = document.querySelector(".contact-page")
+
     // LINKS DATA
     const categoriesLink = document.getElementById('category-link')
     const homeLink = document.getElementById('home-link')
+    const contactSection = document.getElementById('contact')
+
     // CLICK EVENTS FOR LINKS
     categoriesLink.addEventListener('click', () => {
-        // hide.style.display = "none"
+        hide.style.display = "none"
+
+        contact.style.display = "none"
         // show categories
-        mealCategoryRow.removeAttribute('hidden')
-        mealCategoryRow.style.display = "inline-block"
+        catCategoryRow.removeAttribute('hidden')
+        catCategoryRow.style.display = "flex"
+    })
+
+    contactSection.addEventListener('click', () => {
+      hide.style.display = "none"
+
+      catCategoryRow.style.display = "none"
+
+      // show categories
+      contact.removeAttribute('hidden')
+      contact.style.display = "show"
     })
       // create category element
       const createCategory = (image, breed, habitat, lifespan) => {
@@ -52,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const categoryElems = categoriesData.map(
                     cats => createCategory(cats.image, cats.breed, cats.habitat, cats.lifespan)
                 )
-                mealCategoryRow.append(...categoryElems)
+                catCategoryRow.append(...categoryElems)
             })
     }
     loadCategories()
