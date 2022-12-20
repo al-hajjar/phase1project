@@ -23,3 +23,9 @@ https://al-hajjar.github.io/phase1project/
 2. [CSS](https://)
 3. [Javascript](https://)
 
+
+## BDD
+|Behaviour                  | Input                                 |                                     output|
+| -----------------------   | ------------------------------------- | ----------------------------------------- |
+| click cat to display catfacts |  json-server --watch db.json          |           |
+|    |      click cats on landscape page                                  |   output cats and their characteristic
