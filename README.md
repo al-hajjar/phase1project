@@ -29,3 +29,8 @@ https://al-hajjar.github.io/phase1project/
 | -----------------------   | ------------------------------------- | ----------------------------------------- |
 | click cat to display catfacts |  json-server --watch db.json          |           |
 |    |      click cats on landscape page                                  |   output cats and their characteristic
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
