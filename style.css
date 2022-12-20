@@ -17,9 +17,9 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
  
-.right-nav{
+/* .right-nav{
     
-}
+} */
 .right-nav ul{
     display: flex;
     gap: 20px;
@@ -148,7 +148,6 @@ img {
     border-radius: 15px;
     display: flex;
     border: 1px solid black;
-
 }
 .cat-image-container{
     width: 35%;
