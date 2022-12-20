@@ -2,7 +2,7 @@ const CATEGORIES = 'https://al-hajjar.github.io/phase1project/db.json'
 document.addEventListener('DOMContentLoaded', () => {
 
     // ROWS DATA
-    const catCategoryRow = document.getElementById('meal-categories')
+    const catCategoryRow = document.getElementById('cat-categories')
     const hide = document.querySelector(".Home-Page")
     const contact = document.querySelector(".contact-page")
 
@@ -21,15 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         catCategoryRow.style.display = "flex"
     })
 
-    contactSection.addEventListener('click', () => {
-      hide.style.display = "none"
-
-      catCategoryRow.style.display = "none"
-
-      // show categories
-      contact.removeAttribute('hidden')
-      contact.style.display = "show"
-    })
       // create category element
       const createCategory = (image, breed, habitat, lifespan) => {
         const rootDiv = document.createElement('div')
@@ -74,4 +65,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     loadCategories()
 })
+$(document).ready(function(){
+  $("#contact").click(function(){
+        $(".Home-Page").hide();
+        $("#cat-categories").hide();
+        $(".contact-page").show();
+  });
+  $("#home-link").click(function(){
+    $(".contact-page").hide();
+    $("#cat-categories").hide();
+    $(".Home-Page").show();
+  });
+});
 

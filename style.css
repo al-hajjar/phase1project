@@ -55,13 +55,12 @@ nav {
 .Right-home img {
     transform: scale(1.5);
 }
-/* .contact-page{
+.contact-page{
     display: none;
-} */
+}
 
 form{
     max-width: 550px;
-    height: 500px;
     border: 1px solid;
     margin: 0 auto 50px;
     border-radius: 10px;
