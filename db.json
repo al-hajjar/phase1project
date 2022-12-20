@@ -27,6 +27,13 @@
         "habitat":"tropical forests, coniferous forests,",
         "image":"images/bengal-2042592_1920.webp",
         "lifespan":"between 12 and 16years"
+    },
+    {
+        "id":5,
+        "breed":"british ShortHair",
+        "habitat":"The British Shorthair is a very pleasant cat to have as a companion. She is easy going and placid.",
+        "image":"./images/britishShorthair.jpg",
+        "lifespan":"between 14 and 20years"
     }
 ]
 }
